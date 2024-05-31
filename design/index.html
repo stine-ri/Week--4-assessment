@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Listings</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="filter-container">
+    <select id="job-type-filter">
+      <option value="">All Job Types</option>
+      <option value="Full Time">Full Time</option>
+      <option value="Part Time">Part Time</option>
+      <option value="Contract">Contract</option>
+    </select>
+    <select id="location-filter">
+      <option value="">All Locations</option>
+      <option value="USA only">USA only</option>
+      <option value="Remote">Remote</option>
+      <option value="Worldwide">Worldwide</option>
+    </select>
+    <select id="experience-filter">
+      <option value="">All Experience Levels</option>
+      <option value="Junior">Junior</option>
+      <option value="Midweight">Midweight</option>
+      <option value="Senior">Senior</option>
+    </select>
+    <button id="filter-button">Filter</button>
+  </div>
+
+  <div class="container" id="job-listings">
+    <!-- Job listings will be inserted here by JavaScript -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
